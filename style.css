@@ -1,0 +1,32 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color:rgb(123, 255, 0);
+}
+
+
+canvas{
+    animation-name: GOOSEBUMS;
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes GOOSEBUMS{
+    0%{
+        box-shadow: 2px 2px 40px rgb(255, 153, 0) ;
+    }
+    25%{
+        box-shadow: 2px 2px 40px rgb(255, 213, 0) ;
+    }
+    50%{
+        box-shadow: 2px 2px 40px rgb(255, 196, 0) ;
+    }
+    75%{
+        box-shadow: 2px 2px 40px rgb(241, 197, 114) ;
+    }
+    100%{
+        box-shadow: 2px 2px 40px rgb(245, 211, 194) ;
+    }
+}
